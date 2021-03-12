@@ -30,6 +30,7 @@ $$$$$$$$ Navbar area style start
 .navbar {
   height: auto !important;
   box-shadow: 0 3px 2px -2px rgb(88, 87, 87);
+  background-color: #006edc !important;
 }
 
 /* .navNumber {
@@ -71,7 +72,7 @@ $$$$$$$$ Navbar area style start
 $$$ Navbar ended $$$ header-area style start
 ****************************************************$$*/
 header {
-  background: url("https://i.imgur.com/KZektEs.jpg") 0 0 / cover;
+  background: url("https://i.imgur.com/G6M8rWG.jpg") 0 0 / cover;
   background-repeat: no-repeat;
   /* background-attachment: fixed; */
   background-position: center;
@@ -82,8 +83,9 @@ header {
 .slideHeadLine {
   font-size: 50px;
   font-weight: 900;
-  /* color: rgb(202, 5, 71); */
-  color: rgb(128, 84, 98);
+  color: rgb(202, 5, 71);
+
+  /* color: rgb(179, 147, 157); */
   text-shadow: 2px 2px rgb(255, 255, 255);
 }
 
@@ -99,13 +101,15 @@ header {
 }
 
 .header-contentsButton {
-  background-color: red;
+  background-color: rgb(158, 146, 75);
   padding: 10px 20px;
   font-weight: 900;
   color: #fff;
   border: none;
 }
-
+.header-contentsButton:hover {
+  background-color: red;
+}
 /* 
 . 
 . 

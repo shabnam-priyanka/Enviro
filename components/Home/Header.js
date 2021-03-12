@@ -73,7 +73,7 @@ const Header = () => {
             </Swiper>
             <style jsx>{`
                 .slider-heder2 {
-                    background: url('https://i.imgur.com/E91pA5Q.jpg') 0 0 / cover;
+                    background: url('https://i.imgur.com/TKOVvVn.jpg') 0 0 / cover;
                     background-repeat: no-repeat;
                     background-position: center;
                     height: 650px;

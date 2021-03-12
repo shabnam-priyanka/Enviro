@@ -37,7 +37,7 @@ const book = [
     {
         id: 6,
         name: 'Stairs & Railings',
-        img: 'https://i.imgur.com/TKI0key.jpg',
+        img: 'https://i.imgur.com/Jwo106q.jpg',
     },
     {
         id: 7,

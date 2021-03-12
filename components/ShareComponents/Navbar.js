@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const Navbar = () => (
     <div className="navbar-bg">
-        <nav style={{ backgroundColor: "blue" }} className="navbar navbar-expand-lg navbar-light">
+        <nav className="navbar navbar-expand-lg navbar-light">
             <a className="navbar-brand" href="/">
                 <img src="/Logo.png" alt="" className="logo img-fluid" />
             </a>
