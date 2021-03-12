@@ -1,0 +1,598 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #f7f8fc;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/***************************************************$$
+$$$$$$$$ Navbar area style start
+****************************************************$$*/
+/* logo style here */
+
+.logo {
+  height: 50px;
+  width: 100px;
+  border-radius: 10px;
+}
+
+/* ******************** */
+
+.navbar {
+  height: auto !important;
+  box-shadow: 0 3px 2px -2px rgb(88, 87, 87);
+}
+
+/* .navNumber {
+  z-index: 3;
+  position: relative;
+  top: -30px;
+  right: 10px;
+  font-weight: bold;
+  color: black;
+  background-color: rgba(255, 255, 255, 0);
+  float: right;
+} */
+
+.nav-link {
+  color: #fff !important;
+  padding: 0px 20px !important;
+}
+
+.navbar-toggler {
+  background-color: #fff;
+  font-size: 25px;
+}
+
+@media (max-width: 991px) {
+  .logo {
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+  }
+
+  .nav-item {
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #fff;
+  }
+}
+
+/***************************************************$$
+$$$ Navbar ended $$$ header-area style start
+****************************************************$$*/
+header {
+  background: url("https://i.imgur.com/KZektEs.jpg") 0 0 / cover;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: center;
+  /* background-position: ; */
+  height: 600px;
+}
+
+.slideHeadLine {
+  font-size: 50px;
+  font-weight: 900;
+  color: rgb(202, 5, 71);
+  text-shadow: 2px 2px rgb(255, 255, 255);
+}
+
+@media (max-width: 600px) {
+  .slideHeadLine {
+    font-size: 30px;
+  }
+}
+@media (max-width: 400px) {
+  .slideHeadLine {
+    /* font-size: 20px; */
+  }
+}
+
+.header-contentsButton {
+  background-color: red;
+  padding: 10px 20px;
+  font-weight: 900;
+  color: #fff;
+  border: none;
+}
+
+/* 
+. 
+. 
+. 
+ */
+
+/**********************************************************
+ *********some renovations area style area started*********
+ ******************************************************/
+
+.someRenovations {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.someRenoHr {
+  height: 5px;
+  background-color: gray;
+  border-radius: 20px;
+  width: 30%;
+}
+
+/***************************************************$$
+$$$ some renovations ended $$$ about style start
+****************************************************$$*/
+.about-area {
+  height: 650px;
+  padding: 50px 0px;
+  text-align: center;
+}
+
+.aboutHr {
+  height: 5px;
+  background-color: #e71c2c;
+  border-radius: 30px;
+  width: 50%;
+}
+
+.showText {
+  transition: 1s;
+}
+
+.showMoreBtn {
+  color: #00cf5a;
+}
+.showLessBtn {
+  color: #00cf5a;
+}
+
+/* .about-area h2 {
+} */
+
+@media (max-width: 767px) {
+  .about-area {
+    height: auto;
+    text-align: center;
+  }
+  .about-area h2 {
+    width: auto;
+  }
+}
+
+/***************************************************$$
+$$$ renovations-area ended $$$ Contact Us-area style start
+****************************************************$$*/
+
+.bookServiceCards {
+  border: 2px solid #ffff;
+  background-color: #008037;
+  color: #fff;
+}
+
+.contact-head_line {
+  font-weight: 700;
+  text-align: center;
+  color: #555151;
+  text-shadow: 2px 2px #a97c59;
+}
+
+/* .
+. 
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.*/
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+/* %%%%%%%%%%%%%%%%%%%% WeBuildForYou-content-area style area started %%%%%%%%%%%%%%%%%%%%%%%%*/
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+.WeBuildForYou-maine-title {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 50px;
+  text-shadow: 2px 2px #787581;
+}
+.weDo_cards {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0);
+  height: 250px !important;
+  margin-bottom: 50px;
+  border: 5px solid #ca718f;
+  background-color: #f3f3f3;
+  padding: 5px;
+  border-radius: 30px;
+  transition: 0.5s;
+}
+
+/*shabnam CSSS here */
+.weDo_cards:hover {
+  background-color: rgb(235, 211, 235);
+  box-shadow: 0px 5px 10px gray;
+  transform: scale(0.9);
+}
+
+/*shabnam CSSS here */
+
+.weDo_cards::before {
+  content: "";
+  position: absolute;
+  top: -28.8675px;
+  left: 110px;
+  width: 10;
+  height: 10;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 28.8675px solid #c0718c;
+}
+
+.weDo_cards img {
+  width: 85%;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.weDo_cards h1 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ca0547;
+  text-shadow: 2px 2px #ffffff;
+  margin: 10px 0px !important;
+}
+
+@media (max-width: 600px) {
+  .weDo_cards {
+    height: auto !important;
+  }
+  .weDo_cards h1 {
+    font-size: 20px;
+  }
+  .weDo_cards::before {
+    left: 180px;
+  }
+}
+
+@media (max-width: 400px) {
+  .weDo_cards::before {
+    left: 130px;
+  }
+}
+@media (max-width: 315px) {
+  .weDo_cards::before {
+    left: 80px;
+  }
+}
+@media (max-width: 274px) {
+  .weDo_cards::before {
+    left: 40px;
+  }
+}
+
+/* .
+. 
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.*/
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+ %%%%%%%%%%%%%%%%%%%% home some renovations style area started %%%%%%%%%%%%%%%%%%%%%%%%
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+/*Shabnam CSS here */
+
+.someRenovations-area {
+  /* .. */
+}
+
+.someReno_card-title {
+  font-size: 23px;
+}
+
+.someReno_card-btn {
+  padding: 5px 10px;
+  background-color: #dac5a7;
+  color: rgb(61, 57, 57);
+  /* text-shadow: 1px 1px rgb(255, 255, 255); */
+  border: 1px solid #c52258;
+  border-radius: 2px;
+  font-weight: 700;
+}
+
+/************************************************************
+***************************Our Service*********************/
+
+.ourServiceCard {
+  height: 350px;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+}
+.ourServiceCard h5 {
+  font-size: 40px;
+  font-weight: 900;
+  color: #fff;
+  text-shadow: 2px 2px 2px #000, 3px 3px 5px blue;
+}
+
+.ourServiceCard button {
+  width: 100%;
+  padding: 5px 0px;
+  font-weight: bold;
+}
+
+@media (max-width: 1139px) {
+  .ourServiceCard {
+    height: 200px;
+  }
+  .ourServiceCard h5 {
+    font-size: 30px;
+  }
+  .ourServiceCard button {
+    width: 90%;
+  }
+}
+
+@media (max-width: 700px) {
+  .ourServiceCard h5 {
+    font-size: 20px;
+  }
+  .ourServiceCard button {
+    width: 100%;
+  }
+}
+
+/**************************our service ends*********************/
+
+/* .
+. 
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.*/
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+/* %%%%%%%%%%%%%%%%%%%% router=  bookings_checkout_calendar style area start %%%%%%%%%%%%%%%%%%%%%%%%*/
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+.checkout_calendar_area {
+  padding: 15px 0px;
+}
+
+.time-cards {
+  padding: 7px;
+  width: 100%;
+  border: 1px solid rgb(168, 180, 179);
+  margin: 5px 0px;
+  transition: 0.4s;
+  background-color: #00c756;
+  font-weight: bold;
+  border-radius: 20px 0px 20px 0px;
+}
+
+.time-cards:hover {
+  border: 1px solid rgb(100, 94, 94);
+  background-color: #eb6167;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 0px 20px 0px 20px;
+}
+
+.time-cards:focus {
+  background-color: #006edc;
+  color: #fff;
+  border-radius: 0px 20px 0px 20px;
+}
+
+.time-SundayOff {
+  padding: 7px;
+  width: 100%;
+  border: 1px solid red;
+  margin: 5px 0px;
+  transition: 0.4s;
+  background-color: #684545;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+
+.booking-card {
+  border: 5px solid rgb(117, 116, 116);
+  padding: 20px;
+  position: fixed;
+  width: 300px;
+  background-color: #03ad4d;
+  color: #ffffff;
+  border-radius: 20px 0px 20px 0px;
+}
+
+.booking-card h4 {
+  font-weight: 400;
+}
+
+.booking-card h5 {
+  font-weight: 500;
+  margin: 20px 0px;
+}
+
+.booking-card hr {
+  height: 1px;
+  background-color: #ffffff;
+}
+
+.booking-card p {
+  font-size: 17px;
+}
+
+.booking-card button {
+  width: 100%;
+  padding: 7px 0px;
+  font-weight: 900;
+  background-color: #008064;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+@media (max-width: 767px) {
+  .checkout_calendar_area {
+    height: auto;
+  }
+  .booking-card {
+    position: static;
+    width: auto;
+    text-align: center;
+  }
+}
+
+/* .
+. 
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.*/
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+/* %%%%%%%%%%%%%%%%%%%% router=  bookings_checkout_form style area start %%%%%%%%%%%%%%%%%%%%%%%%*/
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+.checkout-form-area {
+  /* background-color: #7c7c7c; */
+}
+
+/* .form-control:focus {
+  background-color: #686767;
+} */
+
+/*BOOKING_Checkout_form style here */
+/* .booking-checkout-form {
+  box-shadow: 5px 5px 10px;
+  margin-top: 20px;
+} */
+
+/* .
+. 
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.*/
+
+/***************************************************$$
+$$$ renovations-area ended $$$ Contact Us-area style start
+****************************************************$$*/
+
+/*Shabnam CSS here */
+.Enviro {
+  border-radius: 20px;
+  border: 5px solid rgb(27, 17, 17);
+  padding: 5px;
+}
+
+/*Shabnam CSS here */
+
+.contact-area {
+  background-color: #e4e5e9;
+}
+
+.input-field input {
+  /* color: #fff; */
+}
+.input-field label {
+  color: black;
+}
+
+/* .input-field textarea {
+  color: #fff;
+} */
+
+/* label focus color */
+.input-field input[type="text"]:focus + label {
+  color: black !important;
+  font-weight: bold;
+}
+
+/* label underline focus color */
+.input-field input[type="text"]:focus {
+  border-bottom: 1px solid rgb(255, 255, 255) !important;
+}
+
+.contact-submit-btn {
+  width: 100%;
+  background-color: #0e7e3b;
+  color: #fff;
+}
+
+.contact-area {
+  height: 650px;
+  padding: 20px 0px;
+}
+
+@media (max-width: 767px) {
+  .contact-area {
+    height: auto;
+  }
+}
+
+/* .
+. 
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.*/
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+/* %%%%%%%%%%%%%%%%%%%% router=  footer style area start %%%%%%%%%%%%%%%%%%%%%%%%*/
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+footer {
+  background-color: #1a1a1c;
+  padding: 40px 0px;
+  color: #fff;
+}
+
+.facebook {
+  height: 30px;
+  width: 30px;
+}
