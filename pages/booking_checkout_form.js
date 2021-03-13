@@ -13,7 +13,7 @@ const booking_checkout_form = () => {
         e.preventDefault();
 
         // console.log(e.target)
-        emailjs.sendForm('service', 'template', e.target, 'user')
+        emailjs.sendForm('service_4xbvinj', 'template_g5g82e9', e.target, 'user_bOfceydq85aQa6WDLc22l')
             .then((result) => {
                 if (result) {
                     alert("✅Your message has been sent successfully✅")
