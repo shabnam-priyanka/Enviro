@@ -30,6 +30,7 @@ $$$$$$$$ Navbar area style start
 .navbar {
   height: auto !important;
   box-shadow: 0 3px 2px -2px rgb(88, 87, 87);
+  background-color: #006edc !important;
 }
 
 /* .navNumber {
