@@ -1,8 +1,8 @@
 import Link from 'next/link';
 
-const Navbar = ({ background }) => (
+const Navbar = () => (
     <div className="navbar-bg">
-        <nav style={{ background }} className="navbar navbar-expand-lg navbar-light">
+        <nav style={{ backgroundColor: "blue" }} className="navbar navbar-expand-lg navbar-light">
             <a className="navbar-brand" href="/">
                 <img src="/Logo.png" alt="" className="logo img-fluid" />
             </a>
