@@ -31,7 +31,7 @@ const booking_checkout_form = () => {
     return (
         <>
             <Head>
-                <title>Ottawa-Reno || Checkout-form</title>
+                <title>Enviro-Home-service || Checkout-form</title>
             </Head>
             <section className="checkout-form-area">
                 <div className="container-xl">
