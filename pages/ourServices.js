@@ -6,7 +6,7 @@ const service = [
     {
         id: 0,
         name: 'Kitchen Renovation',
-        img: 'https://scontent-ort2-1.xx.fbcdn.net/v/t1.15752-9/p1080x2048/126975047_1297963573901737_349382650288940813_n.jpg?_nc_cat=110&ccb=1-3&_nc_sid=ae9488&_nc_ohc=cD-tlvl6ouEAX9mYHES&_nc_ht=scontent-ort2-1.xx&tp=6&oh=21792fe8bd82b57e32fcd4cea5fb39fa&oe=604BE2BF',
+        img: 'https://i.imgur.com/Fo63mwk.jpg',
     },
     {
         id: 1,

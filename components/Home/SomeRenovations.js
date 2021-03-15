@@ -82,9 +82,6 @@ const SomeRenovations = () => {
                 <div className="card-content">
                     <h5 className="someReno_card-title text-truncate">{booking.name}</h5>
                     <hr />
-                    <span className="card-title activator grey-text text-darken-4">
-                        <i className="material-icons right">view more</i>
-                    </span>
 
                     <div onClick={() => serviceNameSetCheckout(booking.name)}>
                         <Link href="/bookings_checkout_calendar">
@@ -94,16 +91,6 @@ const SomeRenovations = () => {
                         </Link>
                     </div>
 
-                </div>
-                <div className="card-reveal">
-                    <span className="card-title grey-text text-darken-4">
-                        <h5 className="text-truncate">{booking.name}<i className="material-icons right">close</i></h5>
-                    </span>
-                    <hr />
-                    <p>
-                        Here is some more information about this product that is only
-                        revealed once clicked on.
-                                </p>
                 </div>
             </div>
         </div>
