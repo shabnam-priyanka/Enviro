@@ -10,6 +10,7 @@ const Contact = () => {
             (result) => {
                 if (result) {
                     alert('✅Your message has been sent successfully✅');
+                    document.getElementById("form2").reset();
                 }
                 console.log(result.text);
             },
@@ -42,7 +43,7 @@ const Contact = () => {
                     <div className="col-md">
                         <h2 className="contact-head_line">SEND US A MESSAGE</h2>
                         <div className="row">
-                            <form onSubmit={sendEmail} className="col s12">
+                            <form onSubmit={sendEmail}  id="form2" className="col s12">
                                 <div className="row mb-0">
                                     <div className="input-field col s6">
                                         <input

@@ -17,6 +17,7 @@ const booking_checkout_form = () => {
             .then((result) => {
                 if (result) {
                     alert("✅Your message has been sent successfully✅")
+                    document.getElementById("form1").reset();
                 }
                 console.log(result.text);
             }, (error) => {
@@ -30,7 +31,7 @@ const booking_checkout_form = () => {
     return (
         <>
             <Head>
-                <title>Ottawa-Reno || Checkout-form</title>
+                <title>Enviro-Home-service || Checkout-form</title>
             </Head>
             <section className="checkout-form-area">
                 <div className="container-xl">
@@ -38,7 +39,7 @@ const booking_checkout_form = () => {
                         <div className="col-md-7">
                             {/* form starts */}
                             <h3 className='mt-4 mb-4 text-center'>Customer Information</h3>
-                            <form onSubmit={sendEmail}>
+                            <form onSubmit={sendEmail}  id="form1">
                                 <div className="row">
                                     <div className="col">
                                         <input
