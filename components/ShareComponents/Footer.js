@@ -10,7 +10,7 @@ const Footer = () => {
                         <iframe
                             className="w-100"
                             style={{ height: '400px' }}
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2802.9745465278656!2d-75.70656808444572!3d45.36950867909986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce06695d5204d1%3A0xdc14410676cf59f3!2zOTAwIER5bmVzIFJkLCBPdHRhd2EsIE9OIEsyQyAwSjUsIOCmleCmvuCmqOCmvuCmoeCmvg!5e0!3m2!1sbn!2sbd!4v1617287900159!5m2!1sbn!2sbd"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2802.9745465278656!2d-75.70656808444572!3d45.36950867909986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce06695d5204d1%3A0xdc14410676cf59f3!2s900%20Dynes%20Rd%2C%20Ottawa%2C%20ON%20K2C%200J5!5e0!3m2!1sen!2sca!4v1617241894754!5m2!1sen!2sca"
                             allowFullScreen=""
                             loading="lazy"
                         />
