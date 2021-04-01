@@ -84,17 +84,6 @@ const ourServices = () => {
                             </Link>
                         </div>
                     </div>
-                    // <div className="card ourServiceText">
-                    // <img className="card-img ourservice" src={sr.img} alt="Card image"/>
-                    // <div className="card-img-overlay">
-                    //     <h5 className="card-title">{sr.name} </h5>
-                    //     <Link href="/bookings_checkout_calendar">
-                    //         <a>
-                    //             <button className="someReno_card-btn">Book for Consultation</button>
-                    //         </a>
-                    //     </Link>
-                    // </div>
-                    // </div>
                 )
             }
         </div>
