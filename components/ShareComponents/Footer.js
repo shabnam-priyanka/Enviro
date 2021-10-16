@@ -27,7 +27,7 @@ const Footer = () => {
 
                     <p>900 Dynes Rd, Unit  </p>
                     <p>101 K Ottawa, ON </p>
-                    <h5>Phone : 613-485-4177 </h5>
+                    <h5>Phone : 289-648-4331 </h5>
                     <h5>Email : Enviroottawa@gmail.com</h5>
                 </div>
                 <p className="text-center p-3 mt-0 mb-0">
