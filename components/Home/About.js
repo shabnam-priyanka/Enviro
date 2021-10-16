@@ -2,7 +2,7 @@ import React from 'react';
 import ShowMore from 'react-show-more';
 
 const About = () => {
-    const hello = 44;
+    // const hello = 44;
     return (
         <div className="about-area d-flex align-items-center">
             <section className="container-xl">
@@ -37,7 +37,7 @@ const About = () => {
                     <div className="col-md">
                         <img
                             className="img-fluid"
-                            src="https://i.imgur.com/BoWrgRq.jpg"
+                            src="https://i.imgur.com/30EuEkt.png"
                             alt="about img"
                         />
                     </div>
